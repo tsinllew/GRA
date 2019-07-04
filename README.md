@@ -2,7 +2,7 @@
 
 This repository provides a reference implementation of node2vec as described in the paper:
 
-A gen-eral view for network embedding as matrix factorization
+A general view for network embedding as matrix factorization
 Xin Liu, Tsuyoshi Murata, Kyoung-Sook Kim, Chatchawan Kotarasu and Chenyi Zhuang
 WSDM 2019
 
@@ -15,10 +15,15 @@ python main.py --net_file '../network/brazil_flights/brazil_flights.net' --emb_f
 
 net_file is the input of network data, which format:
 7,77,1.0
+
 29,50,1.0
+
 3,35,1.0
+
 9,84,1.0
+
 ... 
+
 Each line represent a link, i.e. node0,node1,weight
 the node id should start from 0 and increase consecutively
 
