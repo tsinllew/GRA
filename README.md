@@ -17,7 +17,9 @@ net_file is the input of network date, where each line represent a link, i.e. no
 the node id should start from 0 and increase consecutively
 
 emb_dim is the dimension of the embeddings
+
 net_name is the name of the network
+
 alpha and beta are hyper-parameters
 
 The output embedding is saved as emb_file
