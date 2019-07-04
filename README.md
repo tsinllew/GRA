@@ -21,8 +21,8 @@ net_name is the name of the network
 
 alpha and beta are hyper-parameters
 
-The output embedding is saved as emb_file
-We can load the output by pickle as
+The output embedding is saved in pickle format.
+It can be loaded by
 with open(emb_file, 'rb') as f:
 	emb = pickle.load(f)
 The returned emb is a numpy.ndarray, with size (num_nodes, dim_emb). Each row of emb is the embedding vector for one node.
