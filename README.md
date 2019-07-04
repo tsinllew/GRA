@@ -13,18 +13,7 @@ numpy,scipy,sklearn,networkx(version=1.11)
 Usage:
 python main.py --net_file '../network/brazil_flights/brazil_flights.net' --emb_file '../emb/brazil_flights.emb' --net_name 'brazil_flights' --emb_dim 120 --alpha 0.95 --beta 0.0
 
-net_file is the input of network data, which format:
-7,77,1.0
-
-29,50,1.0
-
-3,35,1.0
-
-9,84,1.0
-
-... 
-
-Each line represent a link, i.e. node0,node1,weight
+net_file is the input of network date, where each line represent a link, i.e. node0,node1,weight
 the node id should start from 0 and increase consecutively
 
 emb_dim is the dimension of the embeddings
