@@ -18,7 +18,7 @@ net_file is the input of network data, which format:
 29,50,1.0
 3,35,1.0
 9,84,1.0
-...
+... 
 Each line represent a link, i.e. node0,node1,weight
 the node id should start from 0 and increase consecutively
 
